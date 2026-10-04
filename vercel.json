@@ -1,0 +1,22 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/sitemap.xml", "destination": "/api/sitemap" },
+    { "source": "/japan", "destination": "/country.html?country=JP" },
+    { "source": "/usa", "destination": "/country.html?country=US" },
+    { "source": "/france", "destination": "/country.html?country=FR" },
+    { "source": "/brazil", "destination": "/country.html?country=BR" },
+    { "source": "/manga/:slug", "destination": "/manga.html?slug=:slug" },
+    { "source": "/chapter/:slug", "destination": "/chapter.html?slug=:slug" },
+    { "source": "/:slug", "destination": "/chapter.html?slug=:slug" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    }
+  ]
+}

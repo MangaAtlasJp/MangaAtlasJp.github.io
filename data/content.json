@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "mangas": [
+    {
+      "id": "blue-lock",
+      "title": "Blue Lock",
+      "native_title": "ブルーロック",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/JPMangaatlasJp/JPMangaatlasJp.github.io/main/manga-covers/blue-lock/cover-1788579266374.webp",
+      "slug": "blue-lock"
+    },
+    {
+      "id": "one-piece",
+      "title": "One Piece",
+      "native_title": "ワンピース",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/JPMangaatlasJp/JPMangaatlasJp.github.io/main/manga-covers/one-piece/1789577268502-______raw___One_piece_raw__.webp",
+      "slug": "one-piece",
+      "updated_at": "2026-09-16T16:47:48.491Z"
+    },
+    {
+      "id": "kingdom",
+      "title": "Kingdom",
+      "native_title": "キングダム",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/JPMangaatlasJp/JPMangaatlasJp.github.io/main/manga-covers/kingdom/1789575961323-______Raw___Kingdom_Raw__.webp",
+      "slug": "kingdom",
+      "updated_at": "2026-09-16T16:26:01.318Z"
+    },
+    {
+      "id": "days",
+      "title": "DAYS",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/JPMangaatlasJp/JPMangaatlasJp.github.io/main/manga-covers/days/cover-1788579905381.webp",
+      "slug": "days",
+      "native_title": ""
+    },
+    {
+      "id": "dead-account-raw",
+      "title": "デッドアカウント raw ( Dead Account raw )",
+      "slug": "dead-account-raw",
+      "native_title": "デッドアカウント",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/JPMangaatlasJp/JPMangaatlasJp.github.io/main/manga-covers/dead-account-raw/1789913261522-90ODUrK8lyImjGtuG7q9B87w2ojjApBCJyK9mTUC.jpg",
+      "created_at": "2026-09-20T14:06:32.791Z",
+      "updated_at": "2026-09-20T14:07:41.520Z"
+    }
+  ],
+  "chapters": []
+}

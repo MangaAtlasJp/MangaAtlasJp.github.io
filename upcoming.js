@@ -1,0 +1,15 @@
+/* JPMangaatlas Upcoming Chapters System — isolated from Homepage, Latest Chapters and Admin. */
+(async()=>{
+const app=document.getElementById('app');if(!app)return;
+const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
+try{
+const data=await fetch('/data/upcoming-chapters.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():{chapters:[]}).catch(()=>({chapters:[]}));
+const rows=data.chapters||[];if(!rows.length)return;
+const section=document.createElement('section');section.className='upcoming-section';section.id='coming-soon';
+section.innerHTML='<div class="upcoming-head"><div><div class="upcoming-kicker">🇯🇵 今夜公開予定</div><h2>Coming Soon — Japanese Chapters</h2><p>今夜公開予定の最新話を先にチェック。公開後は同じリンクから本編を読めます。</p></div><a href="#japan" class="upcoming-jump">Japan releases ↓</a></div><div class="upcoming-grid"></div>';
+const style=document.createElement('style');style.textContent='.upcoming-section{margin:0 0 28px;padding:24px;border:2px solid #5b8bd9;border-radius:18px;background:#10151f}.upcoming-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:18px}.upcoming-kicker{color:#7da8ef;font-size:12px;font-weight:900;letter-spacing:.12em}.upcoming-head h2{margin:5px 0;font-size:30px}.upcoming-head p{margin:0;color:#aeb5c2}.upcoming-head>a{padding:10px 14px;border:1px solid #33415a;border-radius:9px;color:#c7d8f5}.upcoming-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.upcoming-card{display:block;padding:16px;border:1px solid #2b3547;border-radius:13px;background:#0b1018}.upcoming-copy{min-width:0}.soon-badge{display:inline-block;padding:4px 7px;border-radius:999px;background:#18263a;color:#9fc2ff;font-size:10px;font-weight:900}.upcoming-card h3{margin:9px 0 8px;font-size:17px;line-height:1.4}.upcoming-card p{margin:0;color:#9ba2b0;font-size:12px}.read-link{display:inline-block;margin-top:12px;color:#82a9e7;font-size:12px;font-weight:800}@media(max-width:800px){.upcoming-grid{grid-template-columns:1fr}.upcoming-head{align-items:flex-start;flex-direction:column}}';document.head.appendChild(style);
+const ug=section.querySelector('.upcoming-grid');rows.forEach(c=>{if(!c.slug)return;const a=document.createElement('a');a.className='upcoming-card no-cover';a.href='/chapter.html?slug='+encodeURIComponent(c.slug);a.innerHTML='<div class="upcoming-copy"><span class="soon-badge">近日公開</span><h3>'+esc(c.title)+'</h3><p>'+esc(c.releaseNote||'公開まで少々お待ちください。')+'</p><span class="read-link">Preview chapter →</span></div>';ug.appendChild(a)});
+const putUpcoming=()=>{if(document.getElementById('coming-soon'))return true;if(app.firstElementChild){app.insertBefore(section,app.firstElementChild);return true}return false};
+let tries=0;const timer=setInterval(()=>{tries++;if(putUpcoming()||tries>50)clearInterval(timer)},100);
+}catch(e){console.warn('Upcoming Chapters System unavailable',e)}
+})();

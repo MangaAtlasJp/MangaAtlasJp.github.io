@@ -1,0 +1,77 @@
+{
+  "version": 2,
+  "sections": [
+    {
+      "id": "ad-1",
+      "name": "Ad Section 1",
+      "enabled": false,
+      "code": "<script src=\"https://pl31326963.profitableratecpmnetwork.com/01/89/4e/01894ea722635fb2ec48d7847937a012.js\"></script>",
+      "placement": "start",
+      "between": "50"
+    },
+    {
+      "id": "ad-2",
+      "name": "Ad Section 2",
+      "enabled": false,
+      "code": "<script>\n  atOptions = {\n    'key' : '16a5ea2b615e678027a10458f305d3e8',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://agilelookout.com/16a5ea2b615e678027a10458f305d3e8/invoke.js\"></script>",
+      "placement": "start",
+      "between": "50"
+    },
+    {
+      "id": "ad-3",
+      "name": "Ad Section 3",
+      "enabled": false,
+      "code": "<script>\n  atOptions = {\n    'key' : '6513670c5172f87515d7daa363316e9e',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/6513670c5172f87515d7daa363316e9e/invoke.js\"></script>",
+      "placement": "start",
+      "between": "50"
+    },
+    {
+      "id": "ad-4",
+      "name": "Ad Section 4",
+      "enabled": false,
+      "code": "<script>\n  atOptions = {\n    'key' : 'fa39a127b984cc749a35c8826827e2cb',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://agilelookout.com/fa39a127b984cc749a35c8826827e2cb/invoke.js\"></script>",
+      "placement": "between",
+      "between": "5"
+    },
+    {
+      "id": "ad-5",
+      "name": "Ad Section 5",
+      "enabled": false,
+      "code": "<script>\n  atOptions = {\n    'key' : 'd403d3e95eb68c8dc43b433780436e3e',\n    'format' : 'iframe',\n    'height' : 250,\n    'width' : 300,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/d403d3e95eb68c8dc43b433780436e3e/invoke.js\"></script>",
+      "placement": "between",
+      "between": "8"
+    },
+    {
+      "id": "ad-6",
+      "name": "Ad Section 6",
+      "enabled": false,
+      "code": "<script>\n  atOptions = {\n    'key' : '6736f762925b63de22999e015376ca80',\n    'format' : 'iframe',\n    'height' : 250,\n    'width' : 300,\n    'params' : {}\n  };\n</script>\n<script src=\"https://agilelookout.com/6736f762925b63de22999e015376ca80/invoke.js\"></script>",
+      "placement": "between",
+      "between": "12"
+    },
+    {
+      "id": "ad-7",
+      "name": "Ad Section 7",
+      "enabled": false,
+      "code": "<script>\n  atOptions = {\n    'key' : '6513670c5172f87515d7daa363316e9e',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/6513670c5172f87515d7daa363316e9e/invoke.js\"></script>",
+      "placement": "end",
+      "between": "50"
+    },
+    {
+      "id": "ad-8",
+      "name": "Ad Section 8",
+      "enabled": false,
+      "code": "<script async=\"async\" data-cfasync=\"false\" src=\"https://pl31326962.profitableratecpmnetwork.com/d4d07386504123ce6e8dd856dd6557f7/invoke.js\"></script>\n<div id=\"container-d4d07386504123ce6e8dd856dd6557f7\"></div>",
+      "placement": "between",
+      "between": "11"
+    },
+    {
+      "id": "ad-9",
+      "name": "Ad Section 9",
+      "enabled": false,
+      "code": "<script async=\"async\" data-cfasync=\"false\" src=\"https://agilelookout.com/b0aade7037e8bbc34852d9c860317b3d/invoke.js\"></script>\n<div id=\"container-b0aade7037e8bbc34852d9c860317b3d\"></div>",
+      "placement": "between",
+      "between": "7"
+    }
+  ]
+}
