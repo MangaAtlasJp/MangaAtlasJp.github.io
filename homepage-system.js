@@ -3,7 +3,7 @@
   const app=document.getElementById('app');
   if(!app||window.__mangaAtlasHomepageLoaded)return;
   window.__mangaAtlasHomepageLoaded=true;
-  const GH='https://raw.githubusercontent.com/JPMangaatlasJp/JPMangaatlasJp.github.io/main/';
+  const GH='https://raw.githubusercontent.com/MangaAtlasJp/MangaAtlasJp.github.io/main/';
   const esc=v=>String(v??'').replace(/[&<>\"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#039;'}[m]));
   const norm=v=>String(v??'').toLowerCase().replace(/[-_](ja|raw)$/,'').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
   const unwrap=d=>{let v=d;for(let i=0;i<6;i++){if(v&&typeof v.content==='string'){try{v=JSON.parse(v.content);continue}catch(e){break}}break}return v&&typeof v==='object'?v:{}};
