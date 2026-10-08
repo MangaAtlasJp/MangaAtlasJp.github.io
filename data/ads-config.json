@@ -5,7 +5,7 @@
       "id": "ad-1",
       "name": "Ad Section 1",
       "enabled": true,
-      "code": "<script>\n  atOptions = {\n    'key' : 'cdfd4d0919aba1ef30765cacbb83ba40',\n    'format' : 'iframe',\n    'height' : 250,\n    'width' : 300,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/cdfd4d0919aba1ef30765cacbb83ba40/invoke.js\"></script>\n<script>\n  atOptions = {\n    'key' : 'd9f2e589b7735540f497dd7bb3443df7',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/d9f2e589b7735540f497dd7bb3443df7/invoke.js\"></script>\n<script>\n  atOptions = {\n    'key' : 'b282bb3083a3de986a97bbae6cfcdd02',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/b282bb3083a3de986a97bbae6cfcdd02/invoke.js\"></script>\n<script src=\"https://pl31413328.profitableratecpmnetwork.com/13/3c/c0/133cc03701d48391485adf289626bd7d.js\"></script>",
+      "code": "<script>\n  atOptions = {\n    'key' : 'd403d3e95eb68c8dc43b433780436e3e',\n    'format' : 'iframe',\n    'height' : 250,\n    'width' : 300,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/d403d3e95eb68c8dc43b433780436e3e\"></script>\n<script>\n  atOptions = {\n    'key' : '6513670c5172f87515d7daa363316e9e',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/6513670c5172f87515d7daa363316e9e\"></script>\n<script>\n  atOptions = {\n    'key' : '0dffb9a5d286dadd089fd0b69e19f5b1',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/0dffb9a5d286dadd089fd0b69e19f5b1\"></script>",
       "placement": "start",
       "between": "50"
     },
@@ -13,7 +13,7 @@
       "id": "ad-2",
       "name": "Ad Section 2",
       "enabled": true,
-      "code": "<script>\n  atOptions = {\n    'key' : 'cdfd4d0919aba1ef30765cacbb83ba40',\n    'format' : 'iframe',\n    'height' : 250,\n    'width' : 300,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/cdfd4d0919aba1ef30765cacbb83ba40/invoke.js\"></script>\n<script>\n  atOptions = {\n    'key' : 'd9f2e589b7735540f497dd7bb3443df7',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/d9f2e589b7735540f497dd7bb3443df7/invoke.js\"></script>\n<script>\n  atOptions = {\n    'key' : 'b282bb3083a3de986a97bbae6cfcdd02',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/b282bb3083a3de986a97bbae6cfcdd02/invoke.js\"></script>",
+      "code": "",
       "placement": "start",
       "between": "50"
     },
@@ -21,7 +21,7 @@
       "id": "ad-3",
       "name": "Ad Section 3",
       "enabled": true,
-      "code": "<script>\n  atOptions = {\n    'key' : '6513670c5172f87515d7daa363316e9e',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/6513670c5172f87515d7daa363316e9e/invoke.js\"></script>",
+      "code": "<script>\n  atOptions = {\n    'key' : '6513670c5172f87515d7daa363316e9e',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/6513670c5172f87515d7daa363316e9e\"></script>\n<script>\n  atOptions = {\n    'key' : '0dffb9a5d286dadd089fd0b69e19f5b1',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/0dffb9a5d286dadd089fd0b69e19f5b1\"></script>",
       "placement": "start",
       "between": "50"
     },
@@ -29,7 +29,7 @@
       "id": "ad-4",
       "name": "Ad Section 4",
       "enabled": true,
-      "code": "<script>\n  atOptions = {\n    'key' : 'd9f2e589b7735540f497dd7bb3443df7',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/d9f2e589b7735540f497dd7bb3443df7/invoke.js\"></script>\n<script>\n  atOptions = {\n    'key' : 'b282bb3083a3de986a97bbae6cfcdd02',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/b282bb3083a3de986a97bbae6cfcdd02/invoke.js\"></script>",
+      "code": "<script>\n  atOptions = {\n    'key' : '6513670c5172f87515d7daa363316e9e',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/6513670c5172f87515d7daa363316e9e\"></script>\n<script>\n  atOptions = {\n    'key' : '0dffb9a5d286dadd089fd0b69e19f5b1',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/0dffb9a5d286dadd089fd0b69e19f5b1\"></script>",
       "placement": "between",
       "between": "6"
     },
@@ -37,7 +37,7 @@
       "id": "ad-5",
       "name": "Ad Section 5",
       "enabled": true,
-      "code": "<script>\n  atOptions = {\n    'key' : 'd403d3e95eb68c8dc43b433780436e3e',\n    'format' : 'iframe',\n    'height' : 250,\n    'width' : 300,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/d403d3e95eb68c8dc43b433780436e3e/invoke.js\"></script>",
+      "code": "<script>\n  atOptions = {\n    'key' : 'd403d3e95eb68c8dc43b433780436e3e',\n    'format' : 'iframe',\n    'height' : 250,\n    'width' : 300,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/d403d3e95eb68c8dc43b433780436e3e\"></script>\n<script>\n  atOptions = {\n    'key' : '0dffb9a5d286dadd089fd0b69e19f5b1',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/0dffb9a5d286dadd089fd0b69e19f5b1\"></script>",
       "placement": "between",
       "between": "8"
     },
@@ -45,7 +45,7 @@
       "id": "ad-6",
       "name": "Ad Section 6",
       "enabled": true,
-      "code": "<script>\n  atOptions = {\n    'key' : 'b282bb3083a3de986a97bbae6cfcdd02',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/b282bb3083a3de986a97bbae6cfcdd02/invoke.js\"></script>\n<script>\n  atOptions = {\n    'key' : 'd9f2e589b7735540f497dd7bb3443df7',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/d9f2e589b7735540f497dd7bb3443df7/invoke.js\"></script>",
+      "code": "<script>\n  atOptions = {\n    'key' : '0dffb9a5d286dadd089fd0b69e19f5b1',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/0dffb9a5d286dadd089fd0b69e19f5b1\"></script>\n<script>\n  atOptions = {\n    'key' : '6513670c5172f87515d7daa363316e9e',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/6513670c5172f87515d7daa363316e9e\"></script>",
       "placement": "between",
       "between": "9"
     },
@@ -53,7 +53,7 @@
       "id": "ad-7",
       "name": "Ad Section 7",
       "enabled": true,
-      "code": "<script>\n  atOptions = {\n    'key' : 'cdfd4d0919aba1ef30765cacbb83ba40',\n    'format' : 'iframe',\n    'height' : 250,\n    'width' : 300,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/cdfd4d0919aba1ef30765cacbb83ba40/invoke.js\"></script>\n<script>\n  atOptions = {\n    'key' : 'b282bb3083a3de986a97bbae6cfcdd02',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/b282bb3083a3de986a97bbae6cfcdd02/invoke.js\"></script>",
+      "code": "<script>\n  atOptions = {\n    'key' : 'd403d3e95eb68c8dc43b433780436e3e',\n    'format' : 'iframe',\n    'height' : 250,\n    'width' : 300,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/d403d3e95eb68c8dc43b433780436e3e\"></script>\n<script>\n  atOptions = {\n    'key' : '0dffb9a5d286dadd089fd0b69e19f5b1',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/0dffb9a5d286dadd089fd0b69e19f5b1\"></script>",
       "placement": "end",
       "between": "50"
     },
@@ -61,7 +61,7 @@
       "id": "ad-8",
       "name": "Ad Section 8",
       "enabled": true,
-      "code": "<script>\n  atOptions = {\n    'key' : 'b282bb3083a3de986a97bbae6cfcdd02',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/b282bb3083a3de986a97bbae6cfcdd02/invoke.js\"></script>\n<script>\n  atOptions = {\n    'key' : 'd9f2e589b7735540f497dd7bb3443df7',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/d9f2e589b7735540f497dd7bb3443df7/invoke.js\"></script>",
+      "code": "<script>\n  atOptions = {\n    'key' : '0dffb9a5d286dadd089fd0b69e19f5b1',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/0dffb9a5d286dadd089fd0b69e19f5b1\"></script>\n<script>\n  atOptions = {\n    'key' : '6513670c5172f87515d7daa363316e9e',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/6513670c5172f87515d7daa363316e9e\"></script>",
       "placement": "between",
       "between": "11"
     },
@@ -69,7 +69,7 @@
       "id": "ad-9",
       "name": "Ad Section 9",
       "enabled": true,
-      "code": "<script>\n  atOptions = {\n    'key' : 'b282bb3083a3de986a97bbae6cfcdd02',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/b282bb3083a3de986a97bbae6cfcdd02/invoke.js\"></script>\n<script>\n  atOptions = {\n    'key' : 'd9f2e589b7735540f497dd7bb3443df7',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://www.highrevenueformat.com/d9f2e589b7735540f497dd7bb3443df7/invoke.js\"></script>",
+      "code": "<script>\n  atOptions = {\n    'key' : '0dffb9a5d286dadd089fd0b69e19f5b1',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/0dffb9a5d286dadd089fd0b69e19f5b1\"></script>\n<script>\n  atOptions = {\n    'key' : '6513670c5172f87515d7daa363316e9e',\n    'format' : 'iframe',\n    'height' : 90,\n    'width' : 728,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/6513670c5172f87515d7daa363316e9e\"></script>",
       "placement": "between",
       "between": "7"
     }
