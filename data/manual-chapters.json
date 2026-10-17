@@ -673,6 +673,17 @@
       ],
       "createdAt": "2026-10-17T04:48:54.501Z",
       "updatedAt": "2026-10-17T04:51:48.227Z"
+    },
+    {
+      "id": "manual-1792212869580",
+      "mangaId": "one-piece",
+      "number": 1196,
+      "title": "One Piece raw ( ワンピース raw ) Chapter 1196 | ENG",
+      "slug": "one-piece-eng-raw-1196",
+      "country": "JP",
+      "pages": [],
+      "createdAt": "2026-10-17T04:54:25.643Z",
+      "updatedAt": "2026-10-17T04:54:25.643Z"
     }
   ]
 }
