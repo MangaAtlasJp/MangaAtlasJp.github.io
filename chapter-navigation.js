@@ -3,7 +3,8 @@
   'use strict';
   const slug = decodeURIComponent(new URLSearchParams(location.search).get('slug') || '');
   if (!slug) return;
-  const SOURCES = ['/data/content.json', '/data/upcoming-chapters.json', '/data/manual-chapters.json'];
+  const BASE='/MangaAtlasJp.github.io/';
+  const SOURCES = [BASE+'data/content.json', BASE+'data/upcoming-chapters.json', BASE+'data/manual-chapters.json'];
   const get = (url) => fetch(url + '?nav=' + Date.now(), { cache: 'no-store' }).then(r => r.ok ? r.json() : { chapters: [] }).catch(() => ({ chapters: [] }));
   const num = c => Number(c && c.number);
   function clean(v) { return String(v || '').toLowerCase().replace(/[_–—:：]+/g,'-').replace(/\s+/g,'-').replace(/-+/g,'-').replace(/-ja$/,'').replace(/-raw$/,'').trim(); }
@@ -29,8 +30,8 @@
     const old = document.getElementById('mangaatlas-chapter-nav'); if (old) old.remove();
     const nav = document.createElement('nav'); nav.id='mangaatlas-chapter-nav'; nav.setAttribute('aria-label','Chapter navigation');
     nav.style.cssText='max-width:1000px;margin:24px auto 30px;padding:0 16px;display:flex;justify-content:center;gap:12px;align-items:center;flex-wrap:wrap;';
-    const make = (c,label) => c ? '<a href="/chapter.html?slug='+encodeURIComponent(c.slug)+'" style="display:inline-block;padding:11px 16px;border:1px solid #2a3040;border-radius:10px;color:#f5f5f7;text-decoration:none;background:#111822;font-weight:700">'+label+' · '+String(c.number)+'</a>' : '';
-    nav.innerHTML = make(prev,'← Previous') + '<a href="/" style="display:inline-block;padding:11px 18px;border:1px solid #2a3040;border-radius:10px;color:#f5f5f7;text-decoration:none;background:#111822;font-weight:700">⌂ Home</a>' + make(next,'Next →');
+    const make = (c,label) => c ? '<a href="'+BASE+'chapter.html?slug='+encodeURIComponent(c.slug)+'" style="display:inline-block;padding:11px 16px;border:1px solid #2a3040;border-radius:10px;color:#f5f5f7;text-decoration:none;background:#111822;font-weight:700">'+label+' · '+String(c.number)+'</a>' : '';
+    nav.innerHTML = make(prev,'← Previous') + '<a href="'+BASE+'" style="display:inline-block;padding:11px 18px;border:1px solid #2a3040;border-radius:10px;color:#f5f5f7;text-decoration:none;background:#111822;font-weight:700">⌂ Home</a>' + make(next,'Next →');
     const reader=document.getElementById('reader'); if(reader) reader.insertAdjacentElement('afterend',nav);
   }
   async function init() {
